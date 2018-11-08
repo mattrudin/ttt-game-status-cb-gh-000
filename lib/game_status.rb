@@ -35,8 +35,8 @@ def over?(board)
   full?(board) || won?(board) || draw?(board)
 end
 
-def winner
-
+def winner(board)
+  
 end
 
 # Define your WIN_COMBINATIONS constant
