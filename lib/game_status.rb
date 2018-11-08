@@ -31,6 +31,10 @@ def draw?(board)
   !won?(board) && full?(board)
 end
 
+def over?(board)
+
+end
+
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
   [0,1,2], # Top row
